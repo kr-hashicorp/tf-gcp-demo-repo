@@ -1,0 +1,8 @@
+*.png
+*.json
+terraform.tfstate*
+.terraform
+*.txt
+example/
+cast/
+*DS_Store*
