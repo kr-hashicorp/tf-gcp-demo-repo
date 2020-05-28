@@ -102,9 +102,9 @@ module "network" {
 
 terraform {
   backend "remote" {
-    hostname = "tfe.hashicorplabs.com"
+    hostname = "tfe_host_name"
     organization = "hc-tfe-jsp-demo"
-    token = "6ECB1Q6hpYEzDw.atlasv1.stBJuPHYitMqGjG1RYMsi9anoyZsX8Fg6mGGyDg9KnlujJ9UgusVkoNmyR06JcYqHSQ"
+    token = "TFE_API_TOKEN"
     
     workspaces {
     name = "kr-gcp-remotestate-demo" 
